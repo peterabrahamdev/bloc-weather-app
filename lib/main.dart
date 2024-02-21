@@ -1,5 +1,6 @@
+import 'package:bloc_weather_app/presentation/screens/weather.dart';
 import 'package:flutter/material.dart';
-import 'package:bloc_weather_app/screens/weather.dart';
+
 
 void main() {
   runApp(const MyApp());
