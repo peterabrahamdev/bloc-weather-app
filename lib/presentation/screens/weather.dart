@@ -33,7 +33,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
         actions: [
           IconButton(
             onPressed: () {
-              // context.read<WeatherBloc>().add(WeatherFetched());
+              context.read<WeatherBloc>().add(WeatherFetched());
             },
             icon: const Icon(Icons.refresh),
           ),
